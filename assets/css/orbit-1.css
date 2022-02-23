@@ -43,6 +43,7 @@ p {
   background: #42A8C0;
   position: relative;
   width: 100%;
+  height: 100vh;
 }
 
 .sidebar-wrapper {
@@ -165,6 +166,7 @@ p {
   background: #fff;
   padding:30px;
   padding-right: 300px;
+  height: 100vh;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -173,7 +175,7 @@ p {
   color: #2d7788;
   position: relative;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .main-wrapper .section-title .icon-holder {
   width: 30px;
@@ -189,14 +191,14 @@ p {
   text-align: center;
   font-size: 16px;
   position: relative;
-  top: -8px;
+  top: -5px;
 }
 .main-wrapper .section-title .icon-holder .svg-inline--fa {
   font-size: 14px;
   margin-top: 6px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -235,7 +237,12 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
-
+.skill-set-container {
+  display: flex;
+}
+.skill-set-container .skillset {
+  flex: 1;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
