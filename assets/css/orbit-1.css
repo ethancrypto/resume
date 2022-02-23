@@ -42,6 +42,7 @@ p {
 .wrapper {
   background: #42A8C0;
   position: relative;
+  width: 100%;
 }
 
 .sidebar-wrapper {
@@ -162,7 +163,7 @@ p {
 
 .main-wrapper {
   background: #fff;
-  padding: 60px;
+  padding:30px;
   padding-right: 300px;
 }
 .main-wrapper .section-title {
