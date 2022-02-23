@@ -161,7 +161,9 @@ p {
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
-
+.summary p {
+  margin-bottom: 5px;
+}
 .main-wrapper {
   background: #fff;
   padding: 30px;
@@ -244,7 +246,7 @@ p {
   flex: 1;
 }
 .skillset .item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 .skillset .level-title {
